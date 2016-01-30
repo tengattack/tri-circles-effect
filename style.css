@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 480px;
+  margin: 20px auto;
+}
+
+.h-block {
+  height: 200px;
+}
+
+.tri-circles-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.tri-circles-bg {
+
+}
+
+.tri-circles-bg-circle, .tri-circles-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tri-circles-content {
+  background: black;
+  z-index: 10;
+}
+
+.tri-circles-bg-circle {
+  position: absolute;
+  z-index: -1;
+  /* transition: all 0.2s; */
+  top: 0;
+  left: 0;
+}
+
+.tri-circles-bg-circle.top {
+  left:-3.755%;top:-10.991%;
+  background: linear-gradient(135deg, #FEDFE1 0%, red 100%);
+  animation: circle1 6.3s infinite;
+}
+
+.tri-circles-bg-circle.left {
+  left:-10.392%;top:5.128%;
+  background: linear-gradient(180deg, #86C166 0%, green 100%);
+  animation: circle2 6.3s infinite;
+}
+
+.tri-circles-bg-circle.right {
+  left:10.642%;top:5.031%;
+  background: linear-gradient(45deg, #FAD689 0%, yellow 100%);
+  animation: circle3 6.3s infinite;
+}
