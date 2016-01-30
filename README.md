@@ -1,6 +1,6 @@
 # tri-circles-effects
 
-A interesting pending/loading effect.
+An interesting pending/loading effect.
 
 ## Demo
 
