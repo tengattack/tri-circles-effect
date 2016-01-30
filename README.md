@@ -4,7 +4,9 @@ A interesting pending/loading effect.
 
 ## Demo
 
-clone and open `index.html` in your browser.
+![tri-circles gif](/tri-circles.gif)
+
+Clone and open `index.html` in your browser, and you can change the black content by yourself.
 
 ## Test Build
 
