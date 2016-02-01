@@ -1,6 +1,6 @@
 
 var R = 12;
-var thetas = [1.9, 3.6, 2.7];
+var thetas = [1.8, 3.5, 2.6];
 
 function calcCssText(i) {
   var theta = thetas[i];
