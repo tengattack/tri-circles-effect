@@ -1,4 +1,4 @@
-# tri-circles-effects
+# tri-circles-effect
 
 An interesting pending/loading effect.
 

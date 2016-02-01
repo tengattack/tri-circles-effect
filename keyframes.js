@@ -23,17 +23,18 @@ function calcCssText(i) {
   return cssText;
 }
 
+// 63 ~ 3.14 * 20
 var css = '';
 for (k = 0; k < 3; k++) {
 css += '@keyframes circle' + (k + 1).toString() +  ' {\n';
-for (var i = 0; i < 63; i++) {
+for (var i = 0; i <= 63; i++) {
   var p;
   if (i == 0) {
     p = '0%';
-  } else if (i == 63 - 1) {
+  } else if (i == 63) {
     p = '100%';
   } else {
-    p = (i * 100 / (63 - 1)).toFixed(3) + '%';
+    p = (i * 100 / 63).toFixed(3) + '%';
   }
   css += '  ' + p + ' { ' + calcCssText(k) + ' }\n';
 }
